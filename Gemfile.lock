@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    metasploit-framework (6.4.66)
+    metasploit-framework (6.4.70)
       aarch64
       abbrev
       actionpack (~> 7.1.0)
@@ -45,7 +45,7 @@ PATH
       metasploit-concern
       metasploit-credential
       metasploit-model
-      metasploit-payloads (= 2.0.191)
+      metasploit-payloads (= 2.0.221)
       metasploit_data_models (>= 6.0.7)
       metasploit_payloads-mettle (= 1.0.35)
       mqtt
@@ -328,7 +328,7 @@ GEM
       activemodel (~> 7.0)
       activesupport (~> 7.0)
       railties (~> 7.0)
-    metasploit-payloads (2.0.191)
+    metasploit-payloads (2.0.221)
     metasploit_data_models (6.0.9)
       activerecord (~> 7.0)
       activesupport (~> 7.0)
@@ -475,14 +475,15 @@ GEM
       rex-random_identifier
       rex-text
       ruby-rc4
-    rex-random_identifier (0.1.15)
+    rex-random_identifier (0.1.16)
+      bigdecimal
       rex-text
     rex-registry (0.1.6)
     rex-rop_builder (0.1.6)
       metasm
       rex-core
       rex-text
-    rex-socket (0.1.61)
+    rex-socket (0.1.62)
       dnsruby
       rex-core
     rex-sslscan (0.1.13)
@@ -523,7 +524,7 @@ GEM
     rspec-rerun (1.1.0)
       rspec (~> 3.0)
     rspec-support (3.13.2)
-    rubocop (1.75.6)
+    rubocop (1.75.7)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -633,7 +634,7 @@ DEPENDENCIES
   redcarpet
   rspec-rails
   rspec-rerun
-  rubocop (= 1.75.6)
+  rubocop (= 1.75.7)
   ruby-prof
   simplecov (= 0.18.2)
   test-prof
